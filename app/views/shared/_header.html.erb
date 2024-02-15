@@ -1,0 +1,11 @@
+<section class="hero is-primary is-small">
+  <div class="hero-body">
+    <p class="title">
+		<% if content_for(:title) %>
+    		<%= yield :title %>
+		<% else %>
+			Food Log
+		<% end %>
+    </p>
+  </div>
+</section>
